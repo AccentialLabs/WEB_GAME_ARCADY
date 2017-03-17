@@ -1,0 +1,194 @@
+.celular{  /*Aqui é o ativo do iphone ou celular */
+
+
+    margin-top: 0em;
+    margin-left: 5em;
+}
+/*começa aqui o onoffswitch 8*/
+.onoffswitch8 {
+    position: relative; width: 90px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch8-checkbox {
+    display: none;
+}
+.onoffswitch8-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #999999; border-radius: 20px;
+}
+.onoffswitch8-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch8-inner:before, .onoffswitch8-inner:after {
+    display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch8-inner:before {
+    content: "ON";
+    padding-left: 10px;
+    background-color: #34A7C1; color: #FFFFFF;
+}
+.onoffswitch8-inner:after {
+    content: "OFF";
+    padding-right: 10px;
+    background-color: #EEEEEE; color: #999999;
+    text-align: right;
+}
+.onoffswitch8-switch {
+    display: block; width: 18px; margin: 6px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 56px;
+    border: 2px solid #999999; border-radius: 20px;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch8-checkbox:checked + .onoffswitch8-label .onoffswitch8-inner {
+    margin-left: 0;
+}
+.onoffswitch8-checkbox:checked + .onoffswitch8-label .onoffswitch8-switch {
+    right: 0px; 
+}
+/*Fim do onoffswitch 8*/	
+
+
+
+
+.onoffswitch2-2{  /*Aqui é o ativo do iphone ou celular 2 */
+
+   margin-right: 395px;
+   margin-top: -35;
+   margin-left: 640px;
+}            
+/*começa aqui o onoffswitch 7*/
+.onoffswitch7 {
+    position: relative; width: 90px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch7-checkbox {
+    display: none;
+}
+.onoffswitch7-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #999999; border-radius: 20px;
+}
+.onoffswitch7-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch7-inner:before, .onoffswitch7-inner:after {
+    display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch7-inner:before {
+    content: "ON";
+    padding-left: 10px;
+    background-color: #34A7C1; color: #FFFFFF;
+}
+.onoffswitch7-inner:after {
+    content: "OFF";
+    padding-right: 10px;
+    background-color: #EEEEEE; color: #999999;
+    text-align: right;
+}
+.onoffswitch7-switch {
+    display: block; width: 18px; margin: 6px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 56px;
+    border: 2px solid #999999; border-radius: 20px;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch7-checkbox:checked + .onoffswitch7-label .onoffswitch7-inner {
+    margin-left: 0;
+}
+.onoffswitch7-checkbox:checked + .onoffswitch7-label .onoffswitch7-switch {
+    right: 0px; 
+}
+/*Fim do onoffswitch 7*/	            
+
+	.margembranca{
+    padding: 15px;
+    }
+   
+    /*Aqui começa as configuraç~ões de cor tamanho do HEADER-MENU-CONTAINER*/
+    .header-style{
+        border: 1px solid #DCDCDC;
+    }
+    
+    .menu-style{
+        border: 1px solid #DCDCDC;
+        height: 100%;
+    }
+    
+    .container-style{
+        height: 100%;
+    }
+    /*FIM das configuraç~ões de cor tamanho do HEADER-MENU-CONTAINER*/
+  
+    /* configurações da navbar*/
+    .navbar.navbar-default.nab-branco{
+        background: #FFFFFF;
+    }
+    .container-fluid{
+        height: 4em;
+    }
+    /* Fim configurações da navbar*/
+
+    .breadcrumb{
+        background: #FFFFFF;
+    }
+    /* configurações da tabela */
+    .table-responsive{
+        padding-top: 0%;
+        padding-left: 1.1em;
+    }
+     
+.btnaltura{
+    padding-top: 1.8em;
+
+}
+
+.col-xs-3{
+    height: 5%;
+}
+
+
+    .btnazul{
+        margin-right: 3em;
+        margin-left: 1em;
+    }	
+    
+    .ligado{
+            margin-top: -2em;
+               margin-left: 7em;
+    }
+    
+     /*configigurações do (BTN voltar e o NAVBAR-CABEÇALHO)*/ 
+      .nav-stacked{         
+          margin-left: -1em;
+          margin-right: -1em;
+      }
+      
+      .nab-branco{
+          margin-left: -2em;
+          margin-right: -1em;
+          margin-bottom: 0em;
+      }    /*FIM configigurações do (BTN voltar) e a (NAVBAR-CABEÇÃLHO)*/
+    
+    
+    
+    
+/*	
+<div class="col-md-1">
+    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
+    <label class="onoffswitch-label" for="myonoffswitch">
+        <span class="onoffswitch-inner"></span>
+        <span class="onoffswitch-switch"></span>
+    </label>
+</div>
+ 
+
+*/

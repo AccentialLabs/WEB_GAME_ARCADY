@@ -1,0 +1,27 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26/07/2016, 14:54:07
+    Author     : Matheus Odilon
+*/
+
+.menu-configs{
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    border-top: 0px;
+    border-bottom: 0px;
+
+}
+
+.nav-tabs   li.active   a, .nav-tabs   li.active   a:focus, .nav-tabs   li.active   a:hover{
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.container {
+    width: 100%;
+}
+

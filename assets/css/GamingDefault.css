@@ -1,0 +1,33 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14/06/2016, 18:14:28
+    Author     : user
+*/
+.gaming-header{
+
+    font-size: 0.5em;
+
+}
+
+.gaming-header a small{
+    font-size: 0.7em;
+    line-height: 120%;
+}
+
+.menu-submenu{
+    
+    margin-left: 20px;
+    
+}
+
+.allmenu{
+    border: 1px solid #dcdcdc;
+    border-top: 0px;
+    height: 100%;
+
+}
+
